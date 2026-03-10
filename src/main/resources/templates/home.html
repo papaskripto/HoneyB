@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>HoneyB</title>
+    <link rel="stylesheet" th:href="@{/home.css}">
 </head>
 <body>
-<p>Home</p>
 <form action="/compress" method="post" enctype="multipart/form-data">
     <input type="file" name="files" multiple>
     <button type="submit">Compress</button>
